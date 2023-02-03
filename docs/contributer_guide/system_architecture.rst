@@ -27,8 +27,8 @@ System Architecture Overview
 	\DrawRect{\ux}{\uy}{Users}
 	\DrawRect{\px}{\py}{Proxy \\ (k8s Pod \& Service)}
 	\DrawRect{\hx}{\hy}{Hub \\ (k8s Pod \& Service)}
-	\DrawRect{\ax}{\ay}{Jupyter Notebook\\nbgrader (k8s Pod)}
-	\DrawRect{\bx}{\by}{Jupyter Notebook\\nbgrader (k8s Pod)}
+	\DrawRect{\ax}{\ay}{Jupyter Notebook\\(k8s Pod)}
+	\DrawRect{\bx}{\by}{Jupyter Notebook\\(k8s Pod)}
 	\DrawRect{\nx}{\ny}{ngshare Service \\ (k8s Pod \& Service)}
 
 	\DrawLine{->}{black} (\ux, \uy-0.5) -- (\px, \py+0.5);
